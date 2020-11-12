@@ -1,3 +1,43 @@
-#results {
-         display:none;
-       }
+.bgstl{
+  height: 100vh;
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/04/03-deep-blue-1024x576.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div{
+  max-width: 500px;
+  height: auto;
+  background-color: #7fafae;
+  padding:50 px;
+  box-shadow: 1px 1px 15px 3px #578896;
+}
+
+h1{
+  margin-bottom: 10px;
+  text-shadow: 1px 2px 1px whitesmoke;
+  text-transform: capitalize;
+}
+
+label{
+  display: block;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+input{
+  width: 400px;
+  padding: 10px 0px;
+}
+
+button{
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: none;
+  color: black;
+  background-color: #7fafae;
+  box-shadow: 1px 1px 5px 1px #578896;
+  margin-top: 20px;
+}
